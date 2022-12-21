@@ -20,12 +20,8 @@ galleryItems.forEach((item) => {
 
 var lightbox = new SimpleLightbox(".gallery .gallery__item", {
   /* options */
-  captions: true,
-  captionSelector: "img",
   captionsData: "alt",
-  captionPosition: "bottom",
   captionDelay: 250,
-  enableKeyboard: true,
 });
 
 lightbox.on("show.simplelightbox", function () {
